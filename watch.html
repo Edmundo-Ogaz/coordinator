@@ -11,19 +11,29 @@
 <script>
 var x = document.getElementById("demo");
 
+var options = {
+  enableHighAccuracy: false,
+  timeout: 5000,
+  maximumAge: 0
+};
+
+function error(err) {
+  console.warn('ERROR(' + err.code + '): ' + err.message);
+};
+
 function getLocation() {
     if (navigator.geolocation) {
-	try {        
-		navigator.geolocation.watchPosition(showPosition);
-	} catch(error) {
+	    try {
+		    navigator.geolocation.watchPosition(showPosition, error, options);
+	    } catch(error) {
         	x.innerHTML = error;
-      	}
-    } else { 
+      }
+    } else {
         x.innerHTML = "Geolocation is not supported by this browser.";}
     }
-    
+
 function showPosition(position) {
-    x.innerHTML="Latitude: " + position.coords.latitude + 
+    x.innerHTML="Latitude: " + position.coords.latitude +
     "<br>Longitude: " + position.coords.longitude;
 }
 </script>
