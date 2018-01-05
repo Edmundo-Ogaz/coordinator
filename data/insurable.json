@@ -1,0 +1,74 @@
+{"_id":{"$oid":"5a4cdd816a06c24120f06fe7"},"use":"auto","class":"automovile","type":"convertible","seatMin":1,"seatMax":9,"excluded":["Daewoo Tico","Daewoo Matiz","Suzuki Maruti","Suzuki Alto","chevrolet Taxi","Hyundai Stellar","Lifan 520"]}
+{"_id":{"$oid":"5a4cddba6a06c24120f06ff0"},"use":"auto","class":"automovile","type":"coupe","seatMin":"1","seatMax":"9","excluded":["Daewoo Tico","Daewoo Matiz","Suzuki Maruti","Suzuki Alto","chevrolet Taxi","Hyundai Stellar","Lifan 520"]}
+{"_id":{"$oid":"5a4d3b236a06c24120f079d0"},"use":"auto","class":"automovile","type":"hatchback","seatMin":1,"seatMax":9,"excluded":["Daewoo Tico","Daewoo Matiz","Suzuki Maruti","Suzuki Alto","chevrolet Taxi","Hyundai Stellar","Lifan 520"]}
+{"_id":{"$oid":"5a4d3b4a6a06c24120f079d7"},"use":"auto","class":"automovile","type":"limousine","seatMin":1,"seatMax":9,"excluded":["Daewoo Tico","Daewoo Matiz","Suzuki Maruti","Suzuki Alto","chevrolet Taxi","Hyundai Stellar","Lifan 520"]}
+{"_id":{"$oid":"5a4d3b856a06c24120f079e0"},"use":"auto","class":"automovile","type":"sedan","seatMin":1,"seatMax":9,"excluded":["Daewoo Tico","Daewoo Matiz","Suzuki Maruti","Suzuki Alto","chevrolet Taxi","Hyundai Stellar","Lifan 520"]}
+{"_id":{"$oid":"5a4d3bcf6a06c24120f079f2"},"use":"auto","class":"motorcycle","type":"metalicBody","seatMin":1,"seatMax":2,"excluded":[]}
+{"_id":{"$oid":"5a4d3c006a06c24120f079f8"},"use":"auto","class":"quad","type":"metalicBody","seatMin":1,"seatMax":1,"excluded":[]}
+{"_id":{"$oid":"5a4d47976a06c24120f07b91"},"use":"auto","class":"van","type":"panel","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d47d16a06c24120f07b9c"},"use":"auto","class":"van","type":"rural","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d48c96a06c24120f07bc0"},"use":"auto","class":"van","type":"stationWagon","seatMin":1,"seatMax":9,"excluded":["Toyota Corolla","Toyota Caldina","Toyota Sprinter","Toyota Probox","Toyota Succed","Nissan Ad","Nissan Ad Van","Nissan Ad Wagon","Nissan Avenir","Nissan Wingroad","Mazda Familia","Mitsubishi Libero"]}
+{"_id":{"$oid":"5a4d48f76a06c24120f07bcb"},"use":"auto","class":"van","type":"suv","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d49bd6a06c24120f07be7"},"use":"cargo","class":"breakdownTruck","type":"tug","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4a206a06c24120f07bfa"},"use":"cargo","class":"excavator","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4a466a06c24120f07bff"},"use":"cargo","class":"forkLiftTruck","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4a676a06c24120f07c07"},"use":"cargo","class":"frontLoader","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4a7f6a06c24120f07c09"},"use":"cargo","class":"grader","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4a9c6a06c24120f07c13"},"use":"cargo","class":"microbus","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4abd6a06c24120f07c17"},"use":"cargo","class":"microbus","type":"microbus","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4e4d6a06c24120f07c9d"},"use":"cargo","class":"miniLoader","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4e576a06c24120f07ca1"},"use":"cargo","class":"motorcycle","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4e7e6a06c24120f07ca5"},"use":"cargo","class":"ruralTractor","type":"canero","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4e906a06c24120f07cad"},"use":"cargo","class":"ruralTractor","type":"cistern","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4ea46a06c24120f07caf"},"use":"cargo","class":"ruralTractor","type":"compact","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4eb86a06c24120f07cb3"},"use":"cargo","class":"ruralTractor","type":"dumpTruck","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4ecc6a06c24120f07cbb"},"use":"cargo","class":"ruralTractor","type":"hormigonera","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4edd6a06c24120f07cbd"},"use":"cargo","class":"ruralTractor","type":"isothermalVan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4ef36a06c24120f07cc0"},"use":"cargo","class":"ruralTractor","type":"keel","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f0b6a06c24120f07cca"},"use":"cargo","class":"ruralTractor","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f1d6a06c24120f07ccc"},"use":"cargo","class":"ruralTractor","type":"mixer","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f376a06c24120f07cd2"},"use":"cargo","class":"ruralTractor","type":"rail","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f4c6a06c24120f07cd8"},"use":"cargo","class":"ruralTractor","type":"refrigeratorVan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f5e6a06c24120f07cda"},"use":"cargo","class":"ruralTractor","type":"stork","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f756a06c24120f07ce0"},"use":"cargo","class":"ruralTractor","type":"tow","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4f886a06c24120f07ce6"},"use":"cargo","class":"ruralTractor","type":"van","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d4fc56a06c24120f07cf0"},"use":"cargo","class":"truck","type":"canero","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53176a06c24120f07d65"},"use":"cargo","class":"truck","type":"cistern","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53336a06c24120f07d6c"},"use":"cargo","class":"truck","type":"compact","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d534d6a06c24120f07d72"},"use":"cargo","class":"truck","type":"dumpTruck","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d535f6a06c24120f07d74"},"use":"cargo","class":"truck","type":"hormigonera","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53866a06c24120f07d86"},"use":"cargo","class":"truck","type":"isothermalVan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d539e6a06c24120f07d89"},"use":"cargo","class":"truck","type":"keel","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53b36a06c24120f07d91"},"use":"cargo","class":"truck","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53c66a06c24120f07d95"},"use":"cargo","class":"truck","type":"mixer","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53d56a06c24120f07d97"},"use":"cargo","class":"truck","type":"rail","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53e96a06c24120f07d9d"},"use":"cargo","class":"truck","type":"refrigeratorVan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d53fa6a06c24120f07da3"},"use":"cargo","class":"truck","type":"stork","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54146a06c24120f07da5"},"use":"cargo","class":"truck","type":"tow","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54286a06c24120f07dad"},"use":"cargo","class":"truck","type":"van","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54416a06c24120f07db1"},"use":"cargo","class":"tug","type":"canero","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54536a06c24120f07db3"},"use":"cargo","class":"tug","type":"cistern","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54656a06c24120f07dbb"},"use":"cargo","class":"tug","type":"compact","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54766a06c24120f07dbf"},"use":"cargo","class":"tug","type":"dumpTruck","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d54886a06c24120f07dc1"},"use":"cargo","class":"tug","type":"hormigonera","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d55006a06c24120f07dd6"},"use":"cargo","class":"tug","type":"isothermalVan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d55116a06c24120f07ddc"},"use":"cargo","class":"tug","type":"keel","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d55226a06c24120f07de2"},"use":"cargo","class":"tug","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d553d6a06c24120f07de4"},"use":"cargo","class":"tug","type":"mixer","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d554f6a06c24120f07dea"},"use":"cargo","class":"tug","type":"rail","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d556c6a06c24120f07df0"},"use":"cargo","class":"tug","type":"refrigeratorVan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d557f6a06c24120f07df2"},"use":"cargo","class":"tug","type":"stork","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d55906a06c24120f07dfa"},"use":"cargo","class":"tug","type":"tow","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d55a16a06c24120f07dfe"},"use":"cargo","class":"tug","type":"van","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d55b06a06c24120f07e00"},"use":"cargo","class":"van","type":"panel","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d56746a06c24120f07e20"},"use":"cargo","class":"van","type":"pickup","seatMin":1,"seatMax":9,"excluded":["Daihatsu Delta","Hyundai Porter","Hyundai H100","Kia Frontier","Kia K2700","Kia K3000","Mitsubishi Canter","Toyota Dyna","Toyota Toyoace"]}
+{"_id":{"$oid":"5a4d569e6a06c24120f07e28"},"use":"cargo","class":"vibratingSteelRoller","type":"metalicBody","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d56bb6a06c24120f07e30"},"use":"taxi","class":"automovile","type":"convertible","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d56cc6a06c24120f07e34"},"use":"taxi","class":"automovile","type":"coupe","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d56de6a06c24120f07e36"},"use":"taxi","class":"automovile","type":"hatchback","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d56f46a06c24120f07e3c"},"use":"taxi","class":"automovile","type":"limousine","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d57066a06c24120f07e42"},"use":"taxi","class":"automovile","type":"sedan","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d571f6a06c24120f07e44"},"use":"taxi","class":"van","type":"multipurpose","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d57376a06c24120f07e4d"},"use":"taxi","class":"van","type":"rural","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d57486a06c24120f07e51"},"use":"taxi","class":"van","type":"stationWagon","seatMin":1,"seatMax":9,"excluded":[]}
+{"_id":{"$oid":"5a4d575d6a06c24120f07e53"},"use":"taxi","class":"van","type":"suv","seatMin":1,"seatMax":9,"excluded":[]}
