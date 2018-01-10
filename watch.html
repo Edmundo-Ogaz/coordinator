@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <body>
 
 <p>Click the button to get your coordinates.</p>
@@ -35,7 +36,48 @@ function getLocation() {
 function showPosition(position) {
     x.innerHTML="Latitude: " + position.coords.latitude +
     "<br>Longitude: " + position.coords.longitude;
+    postAjax(new Date(), position.coords.latitude, position.coords.longitude);
 }
+
+function post(time, latitud, longitud) {
+
+    var form = document.createElement("form");
+    form.setAttribute("method", "post");
+    form.setAttribute("action", "http://104.197.87.235/api/coordinates");
+
+    var hiddenFieldTime = document.createElement("input");
+    hiddenFieldTime.setAttribute("type", "hidden");
+    hiddenFieldTime.setAttribute("name", "time");
+    hiddenFieldTime.setAttribute("value", time);
+    form.appendChild(hiddenFieldTime);
+
+    var hiddenFieldLatitud = document.createElement("input");
+    hiddenFieldLatitud.setAttribute("type", "hidden");
+    hiddenFieldLatitud.setAttribute("name", "latitud");
+    hiddenFieldLatitud.setAttribute("value", latitud);
+    form.appendChild(hiddenFieldLatitud);
+
+    var hiddenFieldLongitud = document.createElement("input");
+    hiddenFieldLongitud.setAttribute("type", "hidden");
+    hiddenFieldLongitud.setAttribute("name", "longitud");
+    hiddenFieldLongitud.setAttribute("value", longitud);
+    form.appendChild(hiddenFieldLongitud);
+
+    document.body.appendChild(form);
+    form.submit();
+}
+
+function postAjax(time, latitud, longitud) {
+    $.ajax({
+      method: 'POST',
+      contentType: 'application/json',
+      url: 'https://api.staging.segurosfalabella.cloud/coordinate/api/coordinates',
+      data: JSON.stringify({"time": time, "latitud": "latitud", "longitud": "longitud"}),
+      dataType: "json",
+    }).done(function(resp) {
+      console.log(resp);
+    });
+  }
 </script>
 
 </body>
