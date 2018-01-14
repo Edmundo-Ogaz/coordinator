@@ -77,7 +77,7 @@ function postAjax(time, latitud, longitud) {
       method: 'POST',
       contentType: 'application/json',
       url: 'https://api.staging.segurosfalabella.cloud/coordinate/api/coordinates',
-      data: JSON.stringify({"time": time, "latitud": "latitud", "longitud": "longitud"}),
+      data: JSON.stringify({"time": time, "latitud": latitud, "longitud": longitud}),
       dataType: "json",
     }).done(function(resp) {
       console.log(resp);
