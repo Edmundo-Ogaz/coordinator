@@ -5,7 +5,7 @@
 <body>
 
 <p>Click the button to get your coordinates.</p>
-
+<input type="text" id="bus" placeholder="bus"/>
 <button onclick="getLocation()">Try It</button>
 
 <p id="demo"></p>
@@ -22,9 +22,7 @@ function getLocation() {
 }
 
 function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
-    postAjax(new Date(), position.coords.latitude, position.coords.longitude);
+    postAjax(new Date(), $("#bus").val(),  position.coords.latitude, position.coords.longitude);
 }
 
 function showError(error) {
@@ -44,7 +42,7 @@ function showError(error) {
     }
 }
 
-function post(time, latitud, longitud) {
+function post(time, bus, latitud, longitud) {
 
     var form = document.createElement("form");
     form.setAttribute("method", "post");
@@ -72,15 +70,15 @@ function post(time, latitud, longitud) {
     form.submit();
 }
 
-function postAjax(time, latitud, longitud) {
+function postAjax(time, bus, latitud, longitud) {
     $.ajax({
       method: 'POST',
       contentType: 'application/json',
-      url: 'https://api.staging.segurosfalabella.cloud/coordinate/api/coordinates',
-      data: JSON.stringify({"time": time, "latitud": latitud, "longitud": longitud}),
+      url: 'http://localhost:3000/api/coordinates',
+      data: JSON.stringify({"time": time, "bus": bus, "latitud": latitud, "longitud": longitud}),
       dataType: "json",
     }).done(function(resp) {
-      console.log(resp);
+      x.innerHTML = (x.innerHTML === "" ? "" : x.innerHTML) + ("<li>" + JSON.stringify(resp) + "</li>");
     });
   }
 </script>
